@@ -1,0 +1,56 @@
+
+.h1 {
+    font-family: 'Roboto';
+    font-size: 200px;
+    font-weight: bolder;
+    color: #272727;
+    width: 400px;
+}
+.buton1 {
+    background-color: #E9E927;
+    width: 400px;
+    height: 150px;
+    color: #272727;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+.buton2 {
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    color: #272727;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    border: #272727 solid 3px;
+    padding: 10px;
+    margin: 10px;
+}
+.buton3 {
+    background-color: #272727;
+    width: 400px;
+    height: 150px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+.buton4 {
+    background-color: #CC0000;
+    width: 400px;
+    height: 150px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
