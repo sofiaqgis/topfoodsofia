@@ -1,0 +1,141 @@
+.square {
+  background-color: #272727;
+  color: white;
+  font-family: 'Roboto'; }
+
+.button1 [type=button] {
+  border-radius: 50px;
+  background-color: #CC0000;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 5px;
+  color: white;
+  width: 120px;
+  font-family: 'Roboto';
+  margin-top: 20px;
+  border: none; }
+  .button1 [type=button]:hover {
+    background-color: #ffffff;
+    border: solid #5e5d5d 2px;
+    color: #272727; }
+
+.h1 {
+  font-size: 25px;
+  margin-top: 10px;
+  border: solid 3px black;
+  width: 304px;
+  height: 70px;
+  font-family: 'Roboto';
+  text-align: right;
+  margin: 20px; }
+
+.button2 {
+  background-color: #272727;
+  font-size: 20px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  width: 350px;
+  height: 160px;
+  text-align: left;
+  margin: 10px;
+  margin-left: 20px; }
+
+.button3 {
+  background-color: white;
+  font-size: 20px;
+  color: #272727;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  width: 350px;
+  height: 160px;
+  border: solid 3px black;
+  text-align: left;
+  margin: 10px; }
+
+.button4 {
+  background-color: #CC0000;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  color: white;
+  width: 350px;
+  height: 160px;
+  border: 0ch;
+  text-align: left;
+  margin: 10px; }
+
+.button5 {
+  background-image: url(../imagenes/fusion.png);
+  background-size: cover;
+  font-size: 20px;
+  color: #272727;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  width: 350px;
+  height: 160px;
+  border: none;
+  text-align: left;
+  margin: 10px;
+  margin-left: 20px; }
+
+.button6 {
+  background-color: #E9E927;
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #272727;
+  font-weight: bolder;
+  width: 350px;
+  height: 160px;
+  border: 0ch;
+  text-align: left;
+  margin: 10px; }
+
+.button7 {
+  background-image: url(../imagenes/comidaalpaso.png);
+  background-size: cover;
+  font-size: 20px;
+  color: #272727;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  width: 350px;
+  height: 160px;
+  border: none;
+  text-align: left;
+  margin: 10px; }
+
+.input [type=search] {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #272727;
+  border-radius: 50px;
+  box-sizing: border-box; }
+
+.input [type=email] {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #272727;
+  border-radius: 50px;
+  box-sizing: border-box; }
+
+.input [type=submit] {
+  width: 50px;
+  background-color: #272727;
+  color: white;
+  border: 1px solid white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 50px;
+  cursor: pointer; }
+  .input [type=submit]:hover {
+    background-color: #ffffff;
+    color: #272727;
+    border: solid 2px #272727; }
+
+.h7 {
+  font-family: 'Roboto'; }
+
+.h4 {
+  font-family: 'Roboto'; }
