@@ -3,7 +3,7 @@
     color: white;
     font-family: 'Roboto';
 }
-.button1 {
+.inicio {
     [type=button] {
     border-radius: 50px;
     background-color: #CC0000;
@@ -35,79 +35,106 @@
 }
 .button2 {
     background-color: #272727;
+    color: white;
+}
+.button3 {
+    background-color: white;
+    color: #272727;
+    border: solid 3px black;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    text-align: left;
+    margin: 10px;
+    margin-left: 20px;
     font-size: 20px;
+}
+.button4 {
+    background-color: #CC0000;
     color: white;
     font-family: 'Roboto';
     font-weight: bolder;
-    width: 350px;
+    width: 100%;
     height: 160px;
     text-align: left;
     margin: 10px;
     margin-left: 20px;
-}
-.button3 {
-    background-color: white;
     font-size: 20px;
-    color: #272727;
-    font-family: 'Roboto';
-    font-weight: bolder;
-    width: 350px;
-    height: 160px;
-    border: solid 3px black;
-    text-align: left;
-    margin: 10px;
-}
-.button4 {
-    background-color: #CC0000;
-    font-size: 20px;
-    font-family: 'Roboto';
-    font-weight: bolder;
-    color: white;
-    width: 350px;
-    height: 160px;
-    border: 0ch;
-    text-align: left;
-    margin: 10px;
+    border: none;
 }
 .button5 {
     background-image: url(../imagenes/fusion.png);
     background-size: cover;
-    font-size: 20px;
     color: #272727;
     font-family: 'Roboto';
     font-weight: bolder;
-    width: 350px;
+    width: 100%;
     height: 160px;
-    border: none;
     text-align: left;
     margin: 10px;
     margin-left: 20px;
+    font-size: 20px;
+    border: none;
+   
 }
 .button6 {
     background-color: #E9E927;
-    font-size: 20px;
-    font-family: 'Roboto';
     color: #272727;
+    font-family: 'Roboto';
     font-weight: bolder;
-    width: 350px;
+    width: 100%;
     height: 160px;
-    border: 0ch;
     text-align: left;
     margin: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
 }
 .button7 {
         background-image: url(../imagenes/comidaalpaso.png);
         background-size: cover;
-        font-size: 20px;
         color: #272727;
         font-family: 'Roboto';
         font-weight: bolder;
-        width: 350px;
+        width: 100%;
         height: 160px;
-        border: none;
         text-align: left;
         margin: 10px;
+        margin-left: 20px;
+        font-size: 20px;
+        border: none;
 }
+
+$estilos:(
+    font-family: 'Roboto',
+    font-weight: bolder,
+    width: 100%,
+    height: 160px,
+    text-align: left,
+    margin: 10px,
+    margin-left: 20px,
+    font-size: 20px
+);
+
+.button2 {
+    font-family: map-get($estilos, font-family);
+    font-weight: map-get($estilos, font-weight);
+    width: map-get($estilos,  width);
+    height: map-get($estilos, height);
+    text-align: map-get($estilos, text-align);
+    margin: map-get($estilos, margin);
+    margin-left:map-get($estilos, margin-left);
+    font-size: map-get($estilos, font-size);
+}
+
+@mixin sizes($width, $height) { 
+    height: $height;
+    width: $width;
+    } 
+
+.button3 {
+        @include sizes(100%, 160px);
+        }
+
 .input [type=search] {
         width: 500px;
         padding: 12px 20px;
