@@ -147,3 +147,23 @@
 
 .h4 {
   font-family: 'Roboto'; }
+
+@media screen and (max-width: 600px) {
+  .square {
+    width: 500px; }
+  .button2 {
+    width: 90%; }
+  .button3 {
+    width: 90%; }
+  .button4 {
+    width: 90%; }
+  .button5 {
+    width: 90%; }
+  .button6 {
+    width: 90%; }
+  .button7 {
+    width: 90%; }
+  .input [type=search] {
+    width: 300px; }
+  .input [type=email] {
+    width: 300px; } }
