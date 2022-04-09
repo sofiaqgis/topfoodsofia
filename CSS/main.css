@@ -150,7 +150,7 @@
 
 @media screen and (max-width: 600px) {
   .square {
-    width: 400px; }
+    width: 100%; }
   .button2 {
     width: 90%; }
   .button3 {
