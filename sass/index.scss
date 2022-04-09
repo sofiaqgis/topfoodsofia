@@ -175,12 +175,21 @@ $estilos:(
 .h4 {
     font-family: 'Roboto';
 }
+@media screen and (max-width: 900px) {
+    .button2 {
+        font-size: 16px;
+    }
+    .button7 {
+        font-size: 16px;
+    }
+}
 @media screen and (max-width: 600px) {
     .square { 
-        width: 400px;
+        width: 100%;
     }
     .button2 {
         width: 90%;
+        font-size: 20px;
     }
     .button3 {
         width: 90%;
@@ -196,6 +205,7 @@ $estilos:(
     }
     .button7 {
         width: 90%;
+        font-size: 20px;
     }
     .input [type=search] {
         width: 300px;
@@ -205,8 +215,10 @@ $estilos:(
     }
     .h7 {
         width: 80%;
+        text-align: center;
     }
     .h4 {
         width: 80%;
+        text-align: center;
     }
 }

@@ -89,4 +89,35 @@
       
 .h4 {
         font-family: 'Roboto'; }
-      
+
+@media screen and (max-width: 600px) {
+            .h1 {
+                font-size: 16px;
+            }
+            .square { 
+                width: 100%;
+            }
+            .button1 {
+                width: 90%;
+            }
+            .button2 {
+                width: 90%;
+            }
+            .button3 {
+                width: 90%;
+            }
+            .button4 {
+                width: 90%;
+            }
+            .input [type=email] {
+                width: 300px;
+            }
+            .h7 {
+                width: 80%;
+                text-align: center;
+            }
+            .h4 {
+                width: 80%;
+                text-align: center;
+            }
+        }

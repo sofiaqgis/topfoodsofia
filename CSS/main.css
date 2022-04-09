@@ -148,11 +148,18 @@
 .h4 {
   font-family: 'Roboto'; }
 
+@media screen and (max-width: 900px) {
+  .button2 {
+    font-size: 16px; }
+  .button7 {
+    font-size: 16px; } }
+
 @media screen and (max-width: 600px) {
   .square {
-    width: 400px; }
+    width: 100%; }
   .button2 {
-    width: 90%; }
+    width: 90%;
+    font-size: 20px; }
   .button3 {
     width: 90%; }
   .button4 {
@@ -162,12 +169,15 @@
   .button6 {
     width: 90%; }
   .button7 {
-    width: 90%; }
+    width: 90%;
+    font-size: 20px; }
   .input [type=search] {
     width: 300px; }
   .input [type=email] {
     width: 300px; }
   .h7 {
-    width: 80%; }
+    width: 80%;
+    text-align: center; }
   .h4 {
-    width: 80%; } }
+    width: 80%;
+    text-align: center; } }
