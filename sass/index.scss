@@ -177,7 +177,7 @@ $estilos:(
 }
 @media screen and (max-width: 600px) {
     .square { 
-        width: 100%;
+        width: 400px;
     }
     .button2 {
         width: 90%;
@@ -202,5 +202,11 @@ $estilos:(
     }
     .input [type=email] {
         width: 300px;
+    }
+    .h7 {
+        width: 80%;
+    }
+    .h4 {
+        width: 80%;
     }
 }
