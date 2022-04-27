@@ -147,18 +147,20 @@
   
   @media screen and (max-width: 600px) {
     .p1 {
-      max-width: 500px;
-    margin-left: 20px; }
+      width: 90%;
+    text-align: center; }
     .p2 {
-        max-width: 500px }
+        width: 90%;
+        text-align: center;
+      }
     .p3 {
-          max-width: 500px }
+          max-width: 500px; }
     .button {
       width: 90%; }
     .input [type=search] {
       width: 300px; }
     .input [type=email] {
-      width: 300px; }
+      max-width: 300px; }
     .h1 {
         margin-left: 50px;
         .text-dark {
@@ -173,4 +175,4 @@
       margin-bottom: 10px;
   }
   }
-  }
+}
